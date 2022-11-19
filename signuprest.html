@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signuppage</title>
+    <link rel="stylesheet" href="CSS/signup.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="logodiv"><img src="IMG\logo-kindmealpawa.png" alt="logo"></div>
+        <div class="headicon" id="linkicon"><img src="IMG\follow_blog_greypawan.png" alt="linkicon"></div>
+        <div class="headicon"><img src="IMG\follow_facebook_greypawan.png" alt="fbicon"></div>
+        <div class="headicon"><img src="IMG\follow_twitter_greypawan.png" alt="linkicon"></div>
+        <div id="btnsdiv">
+            <button id="loginbtn">Login</button>
+            <button id="fbbtn">Facebook</button>
+            <button id="emailbtn">Email</button>
+            <button id="signupbtn">Sign Up</button>
+        </div>
+    </header>
+    <nav>
+        <a href="./index.html" target="_blank" rel="noopener noreferrer">
+            <li id="one">Home</li>
+        </a>
+        <a href="./meal_deals.html" target="_blank" rel="noopener noreferrer">
+            <li class="highlighted_nav">Meal Deals</li>
+            <!-- give the "highlighted_nav" class to the li you want to highlight -->
+        </a>
+        <a href="https://www.kindmeal.my/moments.htm" target="_blank" rel="noopener noreferrer">
+            <li>KindMoments</li>
+        </a>
+        <a href="https://www.kindmeal.my/hotpicks.htm" target="_blank" rel="noopener noreferrer">
+            <li>Hot Picks</li>
+        </a>
+        <a href="./Recipes.html" target="_blank" rel="noopener noreferrer">
+            <li>Recipes</li>
+        </a>
+        <a href="https://www.kindmeal.my/vegetarian_directory.htm" target="_blank" rel="noopener noreferrer">
+            <li>Directory</li>
+        </a>
+        <a href="https://www.kindmeal.my/articles/" target="_blank" rel="noopener noreferrer">
+            <li>Articles</li>
+        </a>
+        <a href="https://www.kindmeal.my/DigiRewards" target="_blank" rel="noopener noreferrer">
+            <li id="digireward">Digi Rewards</li>
+        </a>
+        <a href="https://www.kindmeal.my/help.htm" target="_blank" rel="noopener noreferrer">
+            <li id="last">Help</li>
+        </a>
+    </nav>
+
+    <div id="main">
+        <div class="imageside">
+            <div><img src="IMG\imagepawan.png">
+                <h3><a>Food Lover Sign Up</a></h3>
+            </div>
+            <div><img src="IMG\image2pawan.png">
+                <h3><a>Restaurant Sign Up</a></h3>
+            </div>
+            <div>
+                <h2>Why KindMeal?</h2>
+                <ul>
+                    <li>Exclusive meat-free deals</li>
+                    <li>Share yummy food moments</li>
+                    <li>Meet friendly food lovers</li>
+                    <li>Discover cool restaurants</li>
+                    <li>Email updates on tasty deals</li>
+                    <li>Instant coupons & dining</li>
+                    <li>No upfront payment, booking or printing</li>
+                    <p><a href="">More about KindMeal »</a></p>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="formside">
+            <div class="text">
+                <h2>Restaurant / Shop Owner? Sign Up Now.</h2>
+                <ul><p>Improve your business, build brand loyalty, and save precious animal lives! 
+                    Join KindMeal now to enjoy the following features:</p>
+
+                    <li>Effectively reach over 200,000 consumers</li>
+                    <li>Feature your shop across premium partner platforms & media channels</li>
+                    <li>Offer coupons & deals to attract new customers</li>
+                    <li>Showcase your delicious meat-free meals</li>
+                    <li>Get your exclusive Shop Page —<span style='color: red;'>https://KindMeal.my/YourShopName</span></li>
+                </ul>
+                <p>To support our welfare causes, we offer simple, affordable Premium Plans on a monthly
+                   subscription basis, starting from RM 99 only. No deal commissions, no hidden fees. Premium 
+                    Plan details are available upon signing up.
+                </p>
+                <h1>Personal Profile</h1>
+                <p>First, we setup your personal profile, then proceed to configure your shop promotions.</p>
+            </div>
+            <form class="form" id="form">
+               
+               
+                <div class="form-value">
+                    <label>Your Name</label>
+
+                    <!-- <small>First Name</small> -->
+                     <input type="text" name="" id="firstname"  placeholder="First name">  
+                     <input type="text" name="" id="lastname"  placeholder="Last name">
+
+                    <!-- <small>First Name</small> -->
+                  
+                </div>
+                <div class="form-value">
+                    <label>Email</label>
+
+                    <!-- <small>First Name</small> -->
+                    <input type="email" name="" id="email" style="width: 400px;"  placeholder="Email" autocomplete="off">
+                </div>
+                <div class="form-value">
+                    <label>Re-Enter Email</label>
+
+                    <!-- <small>First Name</small> -->
+                    <input type="email" name="" id="re-email" style="width: 350px;"  placeholder="Re enter email" autocomplete="off">
+                </div>
+                <div class="form-value">
+                    <label>Password</label>
+
+                    <!-- <small>First Name</small> -->
+                    <input type="text" name="" id="password" style="width: 350px;" placeholder="Enter your password" autocomplete="off">
+                </div>
+                <div class="form-value">
+                    <label>Username</label>
+
+                    <!-- <small>First Name</small> -->
+                    <input type="text" name="" id="username" style="width: 350px;"  placeholder="username">
+                </div>
+                <div class="form-value1">
+                    <!-- <label>Birth Date</label> -->
+                    Birth Date <select id="selectmonth">
+                        <option>Month</option>
+                        <option>Jan</option>
+                        <option>Feb</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>Sep</option>
+                        <option>Oct</option>
+                        <option>Nov</option>
+                        <option>Dec</option>
+                    </select>
+                    <!-- <small>First Name</small> -->
+                    <select id="selectday">
+                        <option>Day</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                    <select id="selectyear">
+                        <option>Year</option>
+                        <option>2016</option>
+                        <option>2015</option>
+                        <option>2014</option>
+                        <option>2013</option>
+                        <option>2012</option>
+                        <option>2011</option>
+                        <option>2010</option>
+                        <option>2009</option>
+                        <option>2008</option>
+                        <option>2007</option>
+                        <option>2006</option>
+                        <option>2005</option>
+                        <option>2004</option>
+                        <option>2003</option>
+
+                    </select>
+                </div>
+                <div class="form-value2">
+                    <!-- <label>Country</label> -->
+                    Country  <select id='selectcountry'>
+                        <option>Your Country</option>
+                        <option>India</option>
+                        <option>Nepal</option>
+                        <option>Bhutan</option>
+                        <option>Srilanka</option>
+                        <option>Malaysia</option>
+                        <option>Loas</option>
+                        <option>US</option>
+                        <option>Russia</option>
+                        <option>China</option>
+                        <option>Maldivs</option>
+                        <option>Mauratious</option>
+                        <option>Myanmar</option>
+                        <option>Bangladesh</option>
+                        <option>Combo</option>
+                    </select>
+                    <!-- <small>First Name</small> -->
+                    <!-- <input type="text" name="" id="country"> -->
+                </div>
+                <div class="form-value3">
+                    <!-- <label>State</label> -->
+                    State <select id="selectstate">
+                        <option>Your State</option>
+                        <option>Madhya pradesh</option>
+                        <option>Utter pradesh</option>
+                        <option>Maharastra</option>
+                        <option>Rajasthan</option>
+                        <option>chhatisgarh</option>
+                        <option>Bihar</option>
+                        <option>Karnataka</option>
+
+                    </select>
+                </div>
+                <div class="form-value4">
+
+                    <div>
+                        <label for="radio">Gender</label>
+                         male <input type="radio"  name="gender" id="radio" value="male" checked> female <input type="radio" id="radio" name="gender" value="female">
+                        <!-- <label for="male">Male</label> -->
+                       
+                        <!-- <label for="female">Female</label> -->
+                    </div>
+
+                </div>
+                <div class="form-value5">
+                    <!-- <label for="photo">Profile Photo</label> -->
+                    Profile Photo   <input type="file" id="photo" value="photo">
+                </div>
+                <div class="form-value6">
+                    <!-- <label for="checkbox"> I agree to KindMeal.my's Terms & Conditions</label> -->
+                    I agree to KindMeal.my's Terms & Conditions  <input type="checkbox" id="photo" value="checkbox">
+                </div>
+              
+                 <!-- <input type="submit" value="Set Up My Shop &Deals"> -->
+               
+             
+             <!-- <button>Set Up My Shop & Deals</button> -->
+            </form>
+            <button onclick="JoinNow()">Join Now</button>
+            <!-- <button onclick="JoinNow()">Set Up My Shop &Deals</button> -->
+        </div>
+
+
+
+    </div>
+  
+</div>
+    <hr class="clear">
+    <div id="first-grid">
+        <div>
+            <img src="IMG\image3pawan.png">
+        </div>
+    </div>
+    <!-- <hr class="clear"> -->
+    <div id="footpara">
+        <footer id="footer">
+            <div>
+                <p>General</p>
+                <a href="./index.html" target="_blank" rel="noopener noreferrer">
+                    <li>Home</li>
+                </a>
+                <a href="./signup.html" target="_blank" rel="noopener noreferrer">
+                    <li>Sign Up</li>
+                </a>
+                <a href="https://www.kindmeal.my/businesses.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Businesses / Restaurateurs</li>
+                </a>
+                <a href="https://www.kindmeal.my/advertising.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Advertising</li>
+                </a>
+                <a href="https://www.kindmeal.my/about.htm" target="_blank" rel="noopener noreferrer">
+                    <li>About KindMeal.my</li>
+                </a>
+                <a href="https://www.kindmeal.my/help.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Help & FAQ</li>
+                </a>
+                <a href="https://www.kindmeal.my/terms.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Terms & Conditions</li>
+                </a>
+                <a href="https://www.kindmeal.my/partners.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Inspiring Partners</li>
+                </a>
+                <a href="https://www.kindmeal.my/ambassadors.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Lifestyle Ambassadors</li>
+                </a>
+                <a href="https://www.kindmeal.my/careers.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Jobs & Careers</li>
+                </a>
+                <a href="https://www.kindmeal.my/contact.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Contact Us</li>
+                </a>
+            </div>
+            <div>
+                <p>Features</p>
+                <a href="./meal_deals.html" target="_blank" rel="noopener noreferrer">
+                    <li>Meat-Free Deals</li>
+                </a>
+                <a href="https://www.kindmeal.my/menu.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Tasty Menus</li>
+                </a>
+                <a href="https://www.kindmeal.my/moments.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Kind Moments</li>
+                </a>
+                <a href="./Recipes.html" target="_blank" rel="noopener noreferrer">
+                    <li>Meat-Free Recipes</li>
+                </a>
+                <a href="https://www.kindmeal.my/hotpicks.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Member Recommendations</li>
+                </a>
+                <a href="https://www.kindmeal.my/restaurants.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Featured Restaurants</li>
+                </a>
+                <a href="https://www.kindmeal.my/vegetarian_directory.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Vegetarian & Vegan Directory</li>
+                </a>
+                <a href="https://www.kindmeal.my/foodmap.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Food Map</li>
+                </a>
+                <a href="https://www.kindmeal.my/superhero.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Become A Superhero</li>
+                </a>
+                <a href="https://www.kindmeal.my/articles/" target="_blank" rel="noopener noreferrer">
+                    <li>Vegan News & Vegetarian Articles</li>
+                </a>
+                <a href="https://www.kindmeal.my/buzz.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Latest Comments</li>
+                </a>
+            </div>
+            <div>
+                <p>Social Media</p>
+                <a href="https://www.kindmeal.my/widget.htm" target="_blank" rel="noopener noreferrer">
+                    <li>KindMeal Widget</li>
+                </a>
+                <a href="https://www.facebook.com/KindMeal.my" target="_blank" rel="noopener noreferrer">
+                    <li>Facebook</li>
+                </a>
+                <a href="https://twitter.com/KindMeal" target="_blank" rel="noopener noreferrer">
+                    <li>Twitter</li>
+                </a>
+                <a href="https://www.instagram.com/KindMeal.my/" target="_blank" rel="noopener noreferrer">
+                    <li>Instagram</li>
+                </a>
+            </div>
+            <div>
+                <p>Mobile</p>
+                <a href="https://www.kindmeal.my/mobile.htm" target="_blank" rel="noopener noreferrer">
+                    <li>iPhone & iPod App</li>
+                </a>
+                <a href="https://www.kindmeal.my/mobile.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Android App</li>
+                </a>
+                <br>
+                <p>Exciting Promos</p>
+                <a href="https://www.kindmeal.my/Gadhimai" target="_blank" rel="noopener noreferrer">
+                    <li>Gadhimai: Ending Mass Slaughter</li>
+                </a>
+                <a href="https://www.kindmeal.my/freemeals.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Free Meals</li>
+                </a>
+                <a href="https://www.kindmeal.my/freemeal_bloggers.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Food Bloggers</li>
+                </a>
+                <a href="https://www.kindmeal.my/UberCHIRP" target="_blank" rel="noopener noreferrer">
+                    <li>Uber CHIRP</li>
+                </a>
+                <a href="https://www.kindmeal.my/contests/janegoodall.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Jane Goodall Contest</li>
+                </a>
+                <a href="https://www.kindmeal.my/contests/digi_letsinspire_v3.htm" target="_blank"
+                    rel="noopener noreferrer">
+                    <li>Win Digi iPhone 6</li>
+                </a>
+                <a href="https://www.kindmeal.my/worldfoodday.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Feed The Poor</li>
+                </a>
+                <a href="https://www.kindmeal.my/superhero.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Win Superhero Gifts</li>
+                </a>
+                <a href="https://www.kindmeal.my/contests/xmas2014.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Win an iPad Mini 3</li>
+                </a>
+            </div>
+            <div>
+                <p>PetFinder.my</p>
+                <a href="http://www.petfinder.my/listings.htm" target="_blank" rel="noopener noreferrer">
+                    <li> Adopt A Pet</li>
+                </a>
+                <a href="https://www.petfinder.my/iphone.htm" target="_blank" rel="noopener noreferrer">
+                    <li> Smartphone Apps</li>
+                </a>
+                <a href="http://www.petfinder.my/wagazine/" target="_blank" rel="noopener noreferrer">
+                    <li>WAGazine</li>
+                </a>
+                <a href="http://forums.petfinder.my/" target="_blank" rel="noopener noreferrer">
+                    <li>Discussion Forum</li>
+                </a>
+                <a href="https://www.petfinder.my/medicalfund.htm" target="_blank" rel="noopener noreferrer">
+                    <li>Medical Fund</li>
+                </a>
+            </div>
+        </footer>
+    
+        <p>Copyright © KindMeal.my, 2014 - 2021. All rights reserved.</p>
+        <p>This website promotes compassionate, meat-free dining experience. Some food may contain eggs, dairy products
+            or alcohol, please view individual listings for details.</p>
+    </div>
+
+
+    <!-- popup start -->
+
+    <div class="big-modal">
+        <div class="model-contain">
+            <div id="icon">
+                <img src="IMG\logo-kindmealpawa.png">
+                <h1>Join KindMeal For FREE Now</h1>
+                 <p>Please select the type of membership to proceed</p>
+            </div>
+            <div id="page1">
+                <a href="signup.html"> <img src="IMG\imagepawan.png"/></a> 
+               <div>
+                   <h2>Food Lover</h2>
+                   <p>Join FREE to enjoy yummy deals, Share
+                       reviews & meet our community of 
+                       compassionate food lovers
+                   </p>
+               </div>
+             </div>
+             <div id="page2">
+                <a href="signuprest.html"> <img src="IMG\image2pawan.png"/></a> 
+                
+                <div>
+                    <h2>Restaurant/Shop Owner</h2>
+                     <p>List your food outlet, create exciting<br>
+                        vegetarian deals & showcase your delicious<br>
+                        menu for FREE Enjoys our yummy deals<br>
+                        share reviews & meet food lovers too.
+                    </p>
+                </div>
+            </div>
+            <div id="last">
+                <div>
+                    <h3>Member Login</h3>
+                </div>
+                <div>
+                  <h3>Forgot password?</h3>
+                </div>
+              </div>
+            <div class="close">+</div>
+        </div>
+      </div>
+
+
+
+        <!-- popup page2(login) -->
+
+  <div class="login">
+    <div class="mylogin">
+      <div id="icon1">
+          <img src="IMG\logo-kindmealpawa.png">
+
+          <form loginform="">
+              <h2>Member login</h2>
+              <input id="email_L" type="text" placeholder="Enter your email">
+              <input id="password_L" type="text" placeholder="Enter your password">
+               
+               <input id="loginBtn" type="submit" value="Login">
+          </form>
+          
+            <button ><img src='IMG\download.png'/> Login with Facebook</button></a>
+            <div>
+            <h2>Forgot Password</h2>
+            <h2>Not a member?sign up FREE</h2>
+          </div>
+      </div>
+      <div class="close1">+</div>
+    </div>
+</div>
+
+  
+    <script src="JS/signup.js"></script>
+</body>
+
+</html>
